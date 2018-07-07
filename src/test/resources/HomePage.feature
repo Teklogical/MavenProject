@@ -1,24 +1,28 @@
 
-Feature: HomePageVerify
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+
+@tag3
+ Scenario: this is just test
+ Given I know what to do
+ When DO i
+ Then yes
+ 
   
-
-  @Open
-  Scenario: OpenBrowser
-    Given Open browser
-    And get to "homedepoit.com"
-    When maximum the window
-    
-
-  @Homepageverification
-  Scenario: HomePageVerification
-    Given verify Homedepot logo is displayed
-    When verify search bar is displayed
-    Then Verify "What Can I help you to find today?" text is displayed inside of the search bar
-
-@Homepagefunction
-Scenario: HomePageFuncitonCheck
-   Given Appliances is clickable
-Then Bath & Faucets is clickable
-Then Blinds & Window Treatments is clickable
-Then Decor & Furniture
-Then Doors & Windows
