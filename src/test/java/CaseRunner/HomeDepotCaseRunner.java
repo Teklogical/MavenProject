@@ -6,10 +6,10 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"/src/test/resources/" }, 
+		features = {"C:/Users/Administrator/git/MavenProject/src/test/resources" }, 
         glue = {"CaseRunner" }, 
-        plugin = { "pretty", "html:target/cucumber-reports" }
-
+        plugin = { "pretty", "html:target/cucumber-reports" },
+		tags = {"@Openapp,@VerifyHomePage,@Myaccount,@Searchitem1,@Searchitem2,@Storefinder"}
 )
 
 public class HomeDepotCaseRunner {

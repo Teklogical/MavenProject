@@ -5,14 +5,14 @@ Feature: Homepage automation
   @Openapp
   Scenario: OpenApp
     Given Open Browser
-    When Get to "homedepot.com"
+    When Get to 'homedepot.com'
     Then verify HomeDepot logo is displayed
     Then verify Search bar is displayed
-    Then verify "Wht can I help you to find today?" text is displayed inside of the search bar
+    Then verify 'Wht can I help you to find today?' text is displayed inside of the search bar
 
 
   @VerifyHomePage
-  Scenario Outline: VerifyHomePage
+  Scenario: VerifyHomePage
     Given verify Appliances is clickable
     When verify Bath & Faucets is lick bale
     Then verify Blinds & Window Treatments
