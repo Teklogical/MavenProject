@@ -1,5 +1,6 @@
 package PageObject;
 
+<<<<<<< HEAD
 import org.openqa.selenium.WebDriver;
 
 
@@ -19,3 +20,8 @@ static WebDriver driver;
 
 
 
+=======
+public class BasePage {
+
+}
+>>>>>>> refs/heads/Team-B
